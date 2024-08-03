@@ -69,9 +69,13 @@ $` v_g = \frac{d\omega}{dk} `$
 
 Understanding the distinction between phase and group velocities is crucial for comprehending wave phenomena such as dispersion and signal propagation.
 
-### Link to Site
+## Link to Site
 
 - Link: [wave-packet](https://wave-packet.netlify.app)
+
+### Resources
+
+- Academic Research: [Quantum Mechanics: Harmonic Wave-Packets, Localized by Resonant Response in Dispersion Dynamics](https://www.scirp.org/journal/paperinformation?paperid=122733)
 
 ## Contributing
 
