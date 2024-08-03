@@ -57,9 +57,9 @@ This tool is particularly useful for:
 
 Phase velocity refers to the speed at which the phase of the wave propagates in space. It is given by the formula:
 
-$ v_p = \frac{\omega}{k} $
+$$ v_p = \frac{\omega}{k} $$
 
-where $ \omega $ is the angular frequency and $ k $ is the wave number.
+where $$ \omega $$ is the angular frequency and $$ k $$ is the wave number.
 
 ### Group Velocity
 
