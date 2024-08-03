@@ -69,7 +69,7 @@ $ v_g = \frac{d\omega}{dk} $
 
 Understanding the distinction between phase and group velocities is crucial for comprehending wave phenomena such as dispersion and signal propagation.
 
-# Link to Site
+### Link to Site
 
 - Wave Packet: [Link](https://wave-packet.netlify.app)
 
