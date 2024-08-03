@@ -4,12 +4,15 @@
 
 This project aims to depict and display a visual representation of a wave traversing in space, with adjustable phase and group velocity controllers. It is designed to help students learn about the fundamental principles of waves and the basic background theory.
 
+![wave packet](/assets/wave.png)
+
 ## Features
 
 - **Dynamic Visualization**: Real-time rendering of wave propagation in space.
 - **Interactive Controls**: Adjust phase and group velocities to observe their effects on the wave.
 - **Educational Tool**: Aimed at helping students grasp the concepts of wave mechanics, including phase velocity, group velocity, wavelength, and frequency.
 - **User-Friendly Interface**: Intuitive and easy-to-use interface for both instructors and students.
+
 
 ## Usage
 
