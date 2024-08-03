@@ -69,6 +69,10 @@ $ v_g = \frac{d\omega}{dk} $
 
 Understanding the distinction between phase and group velocities is crucial for comprehending wave phenomena such as dispersion and signal propagation.
 
+# Link to Site
+
+- Wave Packet: [Link](https://wave-packet.netlify.app)
+
 ## Contributing
 
 Contributions are welcome! If you have ideas for improvements or have found a bug, please open an issue or submit a pull request. Here’s how you can contribute:
@@ -80,13 +84,9 @@ Contributions are welcome! If you have ideas for improvements or have found a bu
 5. Push to the branch (`git push origin feature-branch`).
 6. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 For any questions or further information, feel free to contact:
 
-- Your Name: [netazuz@gmail.com](mailto:netazuz@gmail.com)
+- Netanel Mazuz: [netazuz@gmail.com](mailto:netazuz@gmail.com)
 - GitHub: [CodePro-art](https://github.com/CodePro-art)
