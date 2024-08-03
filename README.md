@@ -18,17 +18,20 @@ This project aims to depict and display a visual representation of a wave traver
 To run the project locally, you need to have [Node.js](https://nodejs.org/) installed. Then, follow these steps:
 
 1. Clone the repository:
+
     ```sh
-    git clone https://github.com/your-username/wave-visualization.git
+    git clone https://github.com/CodePro-art/wave-visualization.git
     cd wave-visualization
     ```
 
 2. Install the dependencies:
+
     ```sh
     npm install
     ```
 
 3. Start the development server:
+
     ```sh
     npm start
     ```
@@ -54,15 +57,15 @@ This tool is particularly useful for:
 
 Phase velocity refers to the speed at which the phase of the wave propagates in space. It is given by the formula:
 
-\[ v_p = \frac{\omega}{k} \]
+$ v_p = \frac{\omega}{k} $
 
-where \( \omega \) is the angular frequency and \( k \) is the wave number.
+where $ \omega $ is the angular frequency and $ k $ is the wave number.
 
 ### Group Velocity
 
 Group velocity is the speed at which the overall shape of the wave's amplitudes—known as the modulation or envelope—propagates through space. It is defined as:
 
-\[ v_g = \frac{d\omega}{dk} \]
+$ v_g = \frac{d\omega}{dk} $
 
 Understanding the distinction between phase and group velocities is crucial for comprehending wave phenomena such as dispersion and signal propagation.
 
