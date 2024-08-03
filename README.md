@@ -59,7 +59,7 @@ Phase velocity refers to the speed at which the phase of the wave propagates in 
 
 $$ v_p = \frac{\omega}{k} $$
 
-where $$ \omega $$ is the angular frequency and $$ k $$ is the wave number.
+where $` \omega `$ is the angular frequency and $` k `$ is the wave number.
 
 ### Group Velocity
 
