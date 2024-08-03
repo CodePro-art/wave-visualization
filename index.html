@@ -17,12 +17,12 @@
 <table>
   <tr>
     <td class="label">Phase velocity \(v\)</td>
-    <td><input type="range" id="phaseSlider" min="-100" max="100" value="80" oninput="update()" /></td>
+    <td><input type="range" id="phaseSlider" min="-500" max="500" value="80" oninput="update()" /></td>
     <td id="phaseValue" style="width: 3em;"></td>
     <td><button class="small" onclick="phaseSlider.value = 0; update();">0</button></td>
     <td style="width: 0.5em;"></td>
     <td class="label">Group velocity \(u\)</td>
-    <td><input type="range" id="groupSlider" min="-100" max="100" value="30" oninput="update()" /></td>
+    <td><input type="range" id="groupSlider" min="-500" max="500" value="30" oninput="update()" /></td>
     <td id="groupValue" style="width: 3em;"></td>
     <td><button class="small" onclick="groupSlider.value = 0; update();">0</button></td>
   </tr>
