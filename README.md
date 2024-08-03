@@ -65,7 +65,7 @@ where $ \omega $ is the angular frequency and $ k $ is the wave number.
 
 Group velocity is the speed at which the overall shape of the wave's amplitudes—known as the modulation or envelope—propagates through space. It is defined as:
 
-\[ v_g = \frac{d\omega}{dk} \]
+$$ v_g = \frac{d\omega}{dk} $$
 
 Understanding the distinction between phase and group velocities is crucial for comprehending wave phenomena such as dispersion and signal propagation.
 
