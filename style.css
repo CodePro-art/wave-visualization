@@ -4,9 +4,37 @@ table {
   font-size: 14px;
 }
 
-h1 {
-  font-size: 120%;
-  font-weight: bold;
+body {
+  overflow: hidden;
+  height: 100vh;
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+h1,h2,h3,h4,h5 {
+  margin:0;
+}
+
+p {
+  text-align:center;
+  font-family: "Segoe Script";
+}
+
+h1{
+  padding-top:50px;
+  font-size:50px;
+  font-weight: 700;
+  text-align:center;
+  text-transform:uppercase;
+  color:#777;
+  line-height:60px;
+}
+
+h1 span {
+  color: #e3e3e3;
+  font-size:70px;
+  text-shadow: 1px -1px 0px #fff, 0px 4px 8px rgba(0,0,0,0.35), 0px 3px 30px rgba(0,0,0,0.15);
 }
 
 input[type="range"] {
@@ -23,6 +51,7 @@ td {
 
 td.label {
   text-align: right;
+  font-size: 1.1rem;
 }
 
 button.small {
@@ -32,4 +61,18 @@ button.small {
   margin: 0px;
   font-size: 80%;
   font-weight: bold;
+}
+.formula {
+  font-size: 1.6rem;
+  color: #404040;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container > * {
+  margin: 0.7em;
 }

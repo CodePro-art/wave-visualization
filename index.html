@@ -8,38 +8,39 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<h1>Phase vs group velocity</h1>
+<h1>Phase vs group<br>  <span>velocity</span></h1>
+<p>Netanel Mazuz</p>
 
-<div style="width: 800px;">
-  $$E(z, t)=A(z - ut)\cos\left[k(z-vt)\right]$$
-</div>
+<section class="container">
+  <div class="formula" style="width: 800px;">$$E(z, t)=A(z - ut)\cos\left[k(z-vt)\right]$$</div>
+  
+  <table>
+    <tr>
+      <td class="label">Phase velocity \(v\)</td>
+      <td><input type="range" id="phaseSlider" min="-500" max="500" value="80" oninput="update()" /></td>
+      <td id="phaseValue" style="width: 3em;"></td>
+      <td><button class="small" onclick="phaseSlider.value = 0; update();">0</button></td>
+      <td style="width: 0.5em;"></td>
+      <td class="label">Group velocity \(u\)</td>
+      <td><input type="range" id="groupSlider" min="-500" max="500" value="30" oninput="update()" /></td>
+      <td id="groupValue" style="width: 3em;"></td>
+      <td><button class="small" onclick="groupSlider.value = 0; update();">0</button></td>
+    </tr>
+    <tr>
+      <td class="label">Wavelength \(2\pi/k\)</td>
+      <td><input type="range" id="waveSlider" min="200" max="1500" value="600" oninput="update()" /></td>
+      <td id="waveValue"></td>
+      <td></td>
+      <td></td>
+      <td class="label">Pulse width</td>
+      <td><input type="range" id="widthSlider" min="50" max="500" value="150" oninput="update()" /></td>
+      <td id="widthValue"></td>
+      <td></td>
+    </tr>
+  </table>
+  <div id="graph" style="width: 800px; height: 300px;"></div>
+</section>
 
-<table>
-  <tr>
-    <td class="label">Phase velocity \(v\)</td>
-    <td><input type="range" id="phaseSlider" min="-500" max="500" value="80" oninput="update()" /></td>
-    <td id="phaseValue" style="width: 3em;"></td>
-    <td><button class="small" onclick="phaseSlider.value = 0; update();">0</button></td>
-    <td style="width: 0.5em;"></td>
-    <td class="label">Group velocity \(u\)</td>
-    <td><input type="range" id="groupSlider" min="-500" max="500" value="30" oninput="update()" /></td>
-    <td id="groupValue" style="width: 3em;"></td>
-    <td><button class="small" onclick="groupSlider.value = 0; update();">0</button></td>
-  </tr>
-  <tr>
-    <td class="label">Wavelength \(2\pi/k\)</td>
-    <td><input type="range" id="waveSlider" min="200" max="1500" value="600" oninput="update()" /></td>
-    <td id="waveValue"></td>
-    <td></td>
-    <td></td>
-    <td class="label">Pulse width</td>
-    <td><input type="range" id="widthSlider" min="50" max="500" value="150" oninput="update()" /></td>
-    <td id="widthValue"></td>
-    <td></td>
-  </tr>
-</table>
-
-<div id="graph" style="width: 800px; height: 300px;"></div>
 
 <!-- partial -->
 <script src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js'></script>
